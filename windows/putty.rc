@@ -6,5 +6,9 @@
 #include "win_res.rc2"
 
 #ifndef NO_MANIFESTS
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
 1 RT_MANIFEST "putty.mft"
 #endif /* NO_MANIFESTS */
